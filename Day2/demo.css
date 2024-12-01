@@ -1,0 +1,29 @@
+.header{
+    width:100%;
+    background: orange;
+    height:150px;
+}
+.body{
+    height: 500px;
+}
+.left-section{
+    width:20%;
+    float: left;
+    height: 500px;
+    background:orchid;
+}
+.right-section{
+    width: 80%;
+    float: left;
+    height:500px;
+    background: goldenrod;
+}
+.footer{
+    
+    width:100%;
+    background: green;
+    height: 50px;
+}
+body{
+    margin: 0px;
+}

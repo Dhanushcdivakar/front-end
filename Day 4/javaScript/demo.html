@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="imp">
+    <button onclick="displaying()">click me</button>
+    <input type="text" id="inp">
+    <button onclick="display()">click me</button>
+    <h1 id="display-head"></h1>
+    <h2 id="display"></h2>
+    <script>
+        function display()
+        {
+            var text=document.getElementById("inp").value
+            document.getElementById("display-head").innerHTML=text
+            var dummy=document.getElementById("display-head").value
+            document.getElementById("display").innerHTML=dummy
+        }
+        function displaying()
+        {
+            var dummy=document.getElementById("imp").value
+            document.getElementById("display").innerHTML=dummy
+            if(dummy=="dhanush"){
+                alert("you are the greatest..")//similar to that of pop up ads  
+            }
+           
+        }
+
+    
+    </script>
+</body>
+</html>
